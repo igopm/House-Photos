@@ -1,0 +1,408 @@
+ /*body {
+     font: 11pt Arial, Helvetica, sans-serif;
+     /* Рубленый шрифт текста 
+     
+ margin: 0;}*/
+     /* Отступы на странице */
+	 body, html { 
+	 font: 11pt Arial, Helvetica, sans-serif;
+	 font-size: 100%;
+	 padding: 0; 
+	 margin: 0; 
+	 height: 100%;}
+ 
+ h1 {
+     font-size: 36px;
+     /* Размер шрифта */
+     
+     margin: 0;
+     /* Убираем отступы */
+     
+     color: #fc6;
+     /* Цвет текста */
+ }
+ h2 {
+     margin-top: 0;
+     /* Убираем отступ сверху */
+ }
+ #header {
+     /* Верхний блок */
+     background: url(../svg_1.svg) no-repeat; /* Добавляем фон */
+     height: 120px; /* Высота блока */
+	-moz-background-size: 100%;
+     -webkit-background-size: 100%;
+     -o-background-size: 100%;
+     background-size: 100%;
+	background-size: cover; /* Масштабируем фон */
+ }
+ #about {
+     /* Правая колонка */
+     font-stretch: cursive;
+     float: left;
+     /* Обтекание справа */
+     
+     border: 1px solid #333;
+     /* Параметры рамки вокруг */
+     
+     width: 75%;
+     /* Ширина колонки */
+     
+     padding: 5px;
+     /* Поля вокруг текста */
+     
+     margin: 10px 10px 20px 5px;
+     /* Значения отступов */
+     
+     border-radius: 2px;
+ }
+ #footer {
+     /* Нижний блок */
+     
+     background: url(../svg_1.svg) no-repeat;
+     -moz-background-size: 100%;
+     -webkit-background-size: 100%;
+     -o-background-size: 100%;
+     background-size: 100%;
+     padding: 6px;
+     /* Поля вокруг текста */
+     
+     color: #fff;
+     /* Цвет текста fff C5B14D*/
+     
+     clear: left;
+     /* Отменяем действие float */
+     
+     text-align: center;
+ }
+#admin {   
+	   position: fixed;
+     /* фиксированная позиция */
+     /* float: right;*/        
+      right: 1%;
+     /* отступ слева */
+	  margin-top: 1%;
+	  /* Отступ сверху */
+     
+ }
+ #leng {   
+	   position: absolute;
+     /* фиксированная позиция */
+     /* float: right;*/        
+      left: 1%;
+     /* отступ слева */
+	 
+	  /* Отступ сверху */
+     
+ }
+ 
+ #admin a {
+     text-decoration: none;
+     color: #C5B14D;
+ }
+ /* change color admin word
+#admin  a:hover,
+#admin  a.novisited:hover,
+#admin  a.xhr:hover,
+#admin  a.visited:hover {
+     color: #C5B14D;
+ }
+ */
+ 
+ #basicTable {
+     margin: 0 auto;
+     /*align: center;
+      Обтекание справа */
+ }
+ a:hover,
+ a.novisited:hover,
+ a.xhr:hover,
+ a.visited:hover {
+     color: #C5B14D;
+ }
+ /*red color words*/
+ 
+
+ #head {
+	 max-width: 660px;
+	margin:auto;
+     overflow: hidden;
+	
+ }
+ #head2 {
+	 max-width: 660px;
+	margin:auto;
+     overflow: hidden;
+	
+ }
+
+ ul {
+     margin: 0;
+	 margin-top:5%;
+     margin-right: 25px;
+     padding-left: 0;
+     list-style: none;
+     float: right;
+     height: 70px;
+     line-height: 70px;
+     text-align: center;
+ }
+ #head2 ul {
+     margin: 0;
+     margin-right: 25px;
+     padding-left: 0;
+     list-style: none;
+     float: right;
+     height: 70px;
+     line-height: 70px;
+     text-align: center;
+ }
+
+ a {
+     text-decoration: none;
+     display: inline-block;
+     position: relative;
+ }
+ 
+ li a {
+     color: #000000;
+     text-transform: uppercase;
+ }
+  
+ li {
+     display: inline-block;
+     margin-left: 25px;
+     transition: .5s linear;
+ }
+ /*,bloc*/
+ 
+ li a:after {
+     content: "";
+     width: 0;
+     height: 2px;
+     position: absolute;
+     left: 0;
+     bottom: 20px;
+     background: #868686;
+     transition: all 0.5s linear;
+ }
+ li a:hover:after {
+     width: 100%;
+ }
+ ////////////////
+
+  .head2 li a {
+     color: #000000;
+     text-transform: uppercase;
+ }
+ .head2 li {
+     display: inline-block;
+     margin-left: 25px;
+     transition: .5s linear;
+ }
+ /*,bloc*/
+ 
+ .head2 li a:after {
+     content: "";
+     width: 0;
+     height: 2px;
+     position: absolute;
+     left: 0;
+     bottom: 20px;
+     background: #868686;
+     transition: all 0.5s linear;
+ }
+ 
+ #scrollup {
+     position: fixed;
+     /* фиксированная позиция */
+     
+     opacity: 0.8;
+     /* прозрачность */
+     
+     padding: 15px 10px 10px;
+     /* отступы */
+     
+     background: #C5B14D;
+     border-radius: 5px;
+     /* скругление углов */
+     
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     right: 5%;
+     /* отступ слева */
+     
+     bottom: 8%;
+     /* отступ снизу */
+     
+     display: none;
+     /* спрятать блок */
+     
+     cursor: pointer;
+ }
+ #social{
+	margin-bottom:0%;
+	
+     /* отступ слева top:2%;*/
+ }
+ 
+ /*st comments*/
+ .nevid {
+	display:none;
+	}
+
+.kr {
+	color: #C5B14D;
+}
+.ch {
+	color: #000000;
+}
+.ser {
+	color: #666666;
+}
+
+.alert {
+	color:#C5B14D;
+	font-size:12px;
+	text-align:left;
+	border-bottom:1px solid #C5B14D;
+	border-top:1px solid #C5B14D;
+	padding:10px 0 10px 40px;
+	background-color: #fef3f7;
+	background-image:url(../images/pic/allert.png);
+	background-repeat:no-repeat;
+	margin:0 0 0 0;
+}
+.ok {
+	color:#333333;
+	font-size:12px;
+	text-align:left;
+	border-bottom:1px solid #333333;
+	border-top:1px solid #333333;
+	padding:10px 0 10px 40px;
+	background-color: #f2f2f2;
+	background-image:url(../images/pic/ok.png);
+	background-repeat:no-repeat;
+	margin:0px 0 0 0;
+}
+.sm {
+	font-size:9px;
+	color:#333333;
+}
+.sm2 {
+	font-size:10px;
+	color:#666666;
+}
+.zag2 {
+	color:#C5B14D;
+	font-size:16px;
+}
+
+.zag {
+	color:#C5B14D;
+	font-size:20px;
+}
+.data {
+	color:#333333;
+	font-size:11px;
+}
+.nav {
+	font-size:13px;
+	color:#000000;
+	padding:10px 20px 10px 20px;
+	background-color:#cccccc;
+	border:1px solid:#ececec;
+	margin-top:10px;
+	font-weight:normal;
+}
+a.nav {
+	background-color:#f5f5f5;
+	font-weight:normal;
+}
+a.nav:hover {
+	background-color:#ececec;
+	text-decoration:none;
+}
+.navbar
+	{
+	margin-top:35px;
+	}
+.tbl tr:hover {
+	background-color: #e6e6e6;
+}
+
+/* ошибки */
+.formError {
+	position:absolute;
+	top:300px; left:300px;
+	width:150px;
+	padding-bottom:15px;
+	display:block;
+	z-index:5000;
+}
+.formError .formErrorContent {
+	width:100%; 
+	background:#000;
+	color:#fff;
+	font-family:arial;
+	font-size:10px;
+	box-shadow: 1px 1px 6px #000;
+	-moz-box-shadow: 1px 1px 6px #000;
+	-webkit-box-shadow: 1px 1px 6px #000;
+	padding:4px 10px 4px 10px;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+.formError .formErrorArrow{
+	position:absolute;
+	bottom:0;left:20px;
+	width:15px; height:15px;
+}
+.formError .formErrorArrow div{
+	box-shadow: 1px 4px 5px #000;
+	-moz-box-shadow: 1px 4px 5px #000;
+	-webkit-box-shadow: 1px 1px 5px #000;
+	font-size:0px; 
+	}
+.formError .formErrorArrow .line10{width:15px;height:1px; background:#000;margin:0 auto; font-size:0px; display:block;} 
+.formError .formErrorArrow .line9{width:13px;height:1px; background:#000;margin:0 auto;display:block;} 
+.formError .formErrorArrow .line8{width:11px;height:1px; background:#000;margin:0 auto;display:block;} 
+.formError .formErrorArrow .line7{width:9px;height:1px; background:#000;margin:0 auto;display:block;} 
+.formError .formErrorArrow .line6{width:7px;height:1px; background:#000;margin:0 auto;display:block;} 
+.formError .formErrorArrow .line5{width:5px;height:1px; background:#000;margin:0 auto;display:block;} 
+.formError .formErrorArrow .line4{width:3px;height:1px; background:#000;margin:0 auto;display:block;} 
+.formError .formErrorArrow .line3{width:1px;height:1px; background:#000;margin:0 auto;display:block;} 
+
+/* див настроек */	
+.nas
+{
+	border:1px solid #C5B14D; 
+	width:630px;
+	margin:10px 0 20px 0; 
+	background-color:#f7f8f9;
+	text-align:left;
+	padding:7px;
+	 
+}
+
+/*изменения в версии 1.1 */		
+.window {
+  position:fixed;
+  background-color:#ffffff;
+  left:0;
+  top:0;
+  display:none;
+  z-index:9001;
+  box-shadow: 0 0 5px 2px #777777;
+}
+
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background: #666666 url(scripts/images/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat; 
+  opacity: .70;
+  filter:Alpha(Opacity=70);
+  display:none;
+}

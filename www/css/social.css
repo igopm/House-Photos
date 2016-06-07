@@ -1,0 +1,85 @@
+    .housePhotos-buttons {
+        box-sizing: border-box;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        height: 36px;
+        margin: 0;
+        padding: 0;
+        width: top;
+    }
+    .housePhotos-buttons:after {
+        clear: both
+    }
+    .housePhotos-buttons:after,
+    .housePhotos-buttons:before {
+        content: ' ';
+        display: table
+    }
+    .housePhotos-buttons li {
+        box-sizing: border-box;
+        float: left;
+        height: 100%;
+        line-height: 13px;
+        list-style: none;
+        margin: 0;
+        padding: 0 3px
+		/*отступы между кнопками*/
+    }
+    .housePhotos-buttons li.housePhotos-facebook a {
+        background-color: #306199
+    }
+    .housePhotos-buttons li.housePhotos-facebook a:hover {
+        background-color: #244872
+    }
+    .housePhotos-buttons li.housePhotos-googleplus a {
+        background-color: #e93f2e
+    }
+    .housePhotos-buttons li.housePhotos-googleplus a:hover {
+        background-color: #ce2616
+    }
+    .housePhotos-buttons li.housePhotos-instagram a {
+        background-color: #125688
+    }
+    .housePhotos-buttons li.housePhotos-instagram a:hover {
+        background-color: #0c3a5b
+    }
+    .housePhotos-buttons li.housePhotos-vk a {
+        background-color: #4d71a9
+    }
+    .housePhotos-buttons li.housePhotos-vk a:hover {
+        background-color: #3d5a86
+    }
+    . .housePhotos-buttons li.housePhotos-print a:hover {
+        background-color: #717f8b
+    }
+    .housePhotos-buttons li a {
+        background-color: #ccc;
+        border-radius: 2px;
+        box-sizing: border-box;
+        display: block;
+        -webkit-font-smoothing: antialiased;
+        font-weight: 700;
+        height: 100%;
+        padding: 11px 7px 12px 27px;
+        position: relative;
+    }
+    .housePhotos-buttons li a:after {
+        height: 0;
+        bottom: 0;
+        transition: none;
+    }
+    .housePhotos-buttons li a .housePhotos-icon {
+        display: block;
+        left: 10px;
+        padding-top: 9px;
+        position: absolute;
+        top: 0;
+        width: 10%
+    }
+    .housePhotos-buttons li a .housePhotos-icon svg {
+        height: 17px;
+        width: 17px
+    }
+    .housePhotos-buttons li a .housePhotos-icon svg path {
+        fill: #fff
+    }
